@@ -55,7 +55,7 @@ public class Program
                 {
                     Console.WriteLine("Invalid Input");
                     Console.WriteLine("Press 1 to add a product or type 'Exit' to quit");
-                    continue;
+                    userInput = (Console.ReadLine() ?? "0");
                 }
 
         }
